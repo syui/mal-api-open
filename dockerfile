@@ -25,6 +25,6 @@ RUN apk add --update \
 		&& pip install html2text \
 		&& rm -rf /var/cache/apk/*
 	
-#RUN git clone https://gitlab.com/anicat/mal-api-open
-#	cd mal-api-open
-#	zsh ./scpt/editor_open.sh	
+RUN git clone https://gitlab.com/anicat/mal-api-open
+	cd mal-api-open
+	zsh ./scpt/editor_open.sh	
